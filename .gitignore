@@ -1,0 +1,18 @@
+# Secrets — never commit
+.env
+scene-worker.env
+!scene-worker.env.example
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Runtime outputs / model caches
+outputs/
+hf-cache/
+.cache/
+*.log
